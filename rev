@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Caffe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #2a2a72;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        .menu {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu h2 {
+            text-align: center;
+            color: #2a2a72;
+        }
+
+        .menu-item {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .menu-item p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        footer {
+            background-color: #2a2a72;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Code Caffe</h1>
+    <p>Your daily dose of code and caffeine!</p>
+</header>
+
+<section class="menu">
+    <h2>Menu</h2>
+
+    <div class="menu-item">
+        <h3>C# Coffee</h3>
+        <p>A strong, robust coffee that keeps you energized for coding sprints.</p>
+    </div>
+
+    <div class="menu-item">
+        <h3>Syntax Squash</h3>
+        <p>Refreshing kuwut mojito, perfect for cooling off after debugging.</p>
+    </div>
+
+    <div class="menu-item">
+        <h3>Java Jelly</h3>
+        <p>Butterfly pea jelly for a colorful twist on a classic drink.</p>
+    </div>
+
+    <div class="menu-item">
+        <h3>Transcript Tea</h3>
+        <p>A soothing tea to help you stay focused while reading documentation.</p>
+    </div>
+
+    <div class="menu-item">
+        <h3>Bash Boba</h3>
+        <p>Delicious boba tea with a kick – perfect for those late-night coding sessions.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Code Caffe. Keep Coding, Keep Caffeinated!</p>
+</footer>
+
+</body>
+</html>
